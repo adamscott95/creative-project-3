@@ -12,6 +12,9 @@
       </div>
     </div>
     <router-view />
+    <div id="footer"> 
+      <a href="https://github.com/adamscott95/creative-project-3"><p>View my Github Repo here.</p></a>
+    </div>
   </div>
 </template>
 
@@ -74,5 +77,21 @@ body {
 
 .browse {
   margin-right: 50px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(242, 242, 243);
+    margin-top: 5%;
+    width: 100%;
+}
+
+#footer p {
+    padding-bottom: 0;
+    padding-top: 1%;
+    order: 1;
 }
 </style>
